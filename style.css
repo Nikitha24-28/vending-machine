@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.products{
+    grid-area: products;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 60px;
+}
+.cart{
+    grid-area: cart;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+}
+.products div{
+    height: 35vh;
+    width: 25vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:stretch;
+    background-color: grey;
+    margin:20px;
+    border-radius: 15px;
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-areas: "products cart";
+    grid-template-columns: 2fr 1fr;
+}
+.carticon{
+    display: none;
+}
+.buybutton{
+    height: 10vh;
+    width: 90%;
+    margin-bottom: 7px;
+    border-radius: 30px;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+.carth2{
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+.products div img{
+    height: 60%;
+    width:80%;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+.products div{
+    font-size: 20px;
+    text-align: left;
+    margin-top: 50px;
+}
+.quantity{
+    margin-left: 15px;
+}
+.rupees{
+    margin-left: 15px;
+}
+.products div button{
+    height: 10%;
+    width: 50%;
+    border-radius: 10px;
+    
+}
+ul{
+    color: aliceblue;
+    font-size: 30px;
+}
+.bill-section{
+    background-color:rgba(255, 255, 255, 0.195);
+    height: 225px;
+    margin-bottom: 10px;
+    width: 80%;
+    border-radius: 10px;
+}
+.bill-section h3{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 5px;
+}
+.bill-section p{
+    text-align: left;
+    margin-left: 30px;
+    margin-top:15px ;
+    font-size: 20px;
+}
+.bill-section button {
+    margin-top: 10px;
+    margin-left: 30px;
+    height: 30px;
+    width: 110px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.bill-section input{
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 17px;
+    
+}
+.bill-section .note{
+    font-size: 15px;
+}
